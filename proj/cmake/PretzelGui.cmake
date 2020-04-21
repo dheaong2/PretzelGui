@@ -9,8 +9,7 @@ if(NOT TARGET PretzelGui)
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
             "${PretzelGui_PROJECT_ROOT}/src/components/*.cpp"
             "${PretzelGui_PROJECT_ROOT}/src/modules/*.cpp"
-            "${PretzelGui_PROJECT_ROOT}/src/pretzel/PretzelGlobal.cpp"
-            "${PretzelGui_PROJECT_ROOT}/src/pretzel/PretzelGui.cpp"
+            "${PretzelGui_PROJECT_ROOT}/src/pretzel/*.cpp"
             )
 
     # Create the library!
